@@ -1,0 +1,138 @@
+.header {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #3538db;
+    padding: 10px;
+    gap: 12px;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: roboto, sans-serif;
+    background-color: #fff;
+    justify-content: center;
+    display: center;
+    max-width:  420px;
+    width: 100%;
+}
+
+button {
+    background-color: #3538db;
+    font-size: 20px;
+    border: none;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    line-height: 120%;
+    text-transform: uppercase;
+
+}
+
+.info {
+    flex-direction: column;
+    padding: 10px;
+    background: none;
+    width: 50px;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    gap: 2px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.status {
+    font-size: 12px;
+    color: #fff;
+}
+
+.dots {
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: auto;
+
+
+}
+.day {
+    background: rgba(0, 0, 0, .25);
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 3px;
+    border-radius: 12px;
+    margin: 6px 10px;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+
+
+.chat {
+    padding-top: 10px;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+
+}  
+
+.message.in {
+
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+    width: 130px;
+    box-shadow: 0 1px 1px rgba(167, 6, 6, 0.12);
+}
+
+
+.message.out {
+    align-self: flex-end;
+    border-bottom-left-radius: 4px;
+    width: 100px;
+    box-shadow: 0 1px 1px rgba(167, 6, 6, 0.12);
+    margin-left: auto;
+
+}
+
+.message {
+    max-width: 78%;
+    padding: 6px 10px 4px;
+    border-radius: 14px;
+    background: var(--in);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .12);
+    
+}
